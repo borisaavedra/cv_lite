@@ -20,7 +20,6 @@ body {
     display: flex;
     justify-content: center;
     clip-path: circle(49% at 50% 50%);
-    @-moz clip-path: circle(49% at 50% 50%);
     position: absolute;
     top: 10%;
     left: calc((100% / 2) - 114px);
