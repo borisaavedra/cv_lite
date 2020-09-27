@@ -1,5 +1,5 @@
 @media only screen and (max-width: 450px) {
-    body {
+    body{
         font-size: 16px;
     }
     
@@ -26,8 +26,8 @@
 
     .section-title {
         font-size: 26px;
-        top: 14%;
-        left: 32%;
+        top: 32%;
+        left: calc((100% / 2) - (113px / 2))
     }
     .full-stack {
         font-size: 26px;
@@ -37,15 +37,123 @@
         display: none;
     }
 
-    .divider-section > img {
-        width: 413px;
-    }
-
     .about-container {
         width: 81%;
     }
 
+    .box {
+        transform: skewY(-5deg);
+    }
     .icon-title-job {
+        padding-left: 1em;
         width: 6%;
+    }
+
+    .job-text {
+        padding-left: 2em;
+    }
+
+    .about-container-body-stack {
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto auto auto;
+    }
+
+    .item-py, .item-flask, .item-git, .item-mysql, .item-mongo {
+        background-size: 100%;
+    }
+
+    .item-py {
+        background: url("../assets/icons/python-boris.svg") no-repeat;
+    } 
+    
+    .item-flask {
+        background: url("../assets/icons/flask-boris.svg") no-repeat;
+    } 
+    .item-git {
+        background: url("../assets/icons/git-boris.svg") no-repeat;
+    } 
+    
+    .item-mysql {
+        background: url("../assets/icons/mysql-boris.svg") no-repeat;
+    }
+    
+    .item-html {
+        background: url("../assets/icons/html-boris.svg") no-repeat;
+    }
+    
+    .item-css {
+        background: url("../assets/icons/css-boris.svg") no-repeat;
+    }
+    
+    .item-js {
+        background: url("../assets/icons/js-boris.svg") no-repeat;
+    }
+    
+    .item-figma {
+        background: url("../assets/icons/figma-boris.svg") no-repeat;
+    }
+    
+    .item-selenium {
+        background: url("../assets/icons/selenium-boris.svg") no-repeat;
+    }
+    
+    .item-spring {
+        background: url("../assets/icons/spring-boris.svg") no-repeat;
+    }
+    
+
+    .item-mongo {
+        width: 40%;
+        background: url("../assets/icons/mongo_boris_leap.svg") no-repeat;
+    }
+
+    .portfolio-card-grid {
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto;
+        width: 100%;
+    }
+
+    .icon-card {
+        width: 30%;
+    }
+
+    .card-body {
+        font-size: 16px;
+        margin-bottom: 1em;
+        width: 100%;
+    }
+
+    .card-badge {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .contact-me  {
+        padding: 7em;
+
+    }
+
+    .contact-me-title {
+        font-size: 26px;
+        width: 100%;
+    }
+
+    .links {
+        flex-direction: column;
+        align-items: center;
+        height: 250px
+
+    }
+
+    footer {
+        padding: 6em;
+    }
+
+    footer > p {
+        width: 103%;
+    }
+
+    footer > p > span > img {
+        width: 10%;
     }
 }

@@ -143,6 +143,7 @@ li {
 .divider-section {
     position: relative;
     margin-top: 5em;
+    height: 200px;
     text-align: center;
 }
 
@@ -154,12 +155,20 @@ li {
     color: white;
     font-weight: bold;
     font-size: 2em;
-    top: 38%;
-    left: 45%;
+    top: 20%;
+    left: calc((100% / 2) - (156px / 2));
 }
 
 .about-container {
     width: 50%;
+}
+
+.box {
+    position: absolute;
+    background: linear-gradient(177.33deg, #0B0E2C 23.34%, #E94560 157.52%);
+    width: 100%;
+    height: 200px;
+    transform: skewY(-3deg);
 }
 
 .about-container-title {
