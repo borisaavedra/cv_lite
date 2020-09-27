@@ -407,6 +407,7 @@ li {
 
 .card-badge {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .card-body {
