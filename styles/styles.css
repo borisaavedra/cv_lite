@@ -109,9 +109,12 @@ li {
 }
 
 .minor {
-    font-weight: normal;
+    font-weight: lighter;
     color: #878787
 }
+
+.mt { margin-top: 10px;}
+.mb { margin-bottom: 10px; }
 
 .CTA-btn {
     margin-top: 4em;
