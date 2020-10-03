@@ -463,6 +463,23 @@ li {
     background-color: rgb(173, 30, 173);
 }
 
+.btn-outline {
+    margin-top: 4em;
+    background-color: #FFFFFF
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: large;
+    color: #E94560;
+    padding: 1em;
+    text-align: center;
+    text-decoration: none;
+    filter: drop-shadow(0px 4px 30px rgba(0, 0, 0, 0.1));
+    border: 2px solid #E94560;
+    border-radius: 8px;
+    box-shadow: 2px 4px 30px 0 rgba(0, 0, 0, 0.1);
+    cursor: pointer;   
+}
+
 .contact-me > h2 {
     color: white;
     background-image: linea;

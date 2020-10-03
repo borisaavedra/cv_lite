@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-179294085-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-179294085-1');
+    </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="styles/styles.css">
@@ -155,6 +165,51 @@
             <p id="portfolio-section" class="section-title">Portfolio</p>
          </div>
          <div class="main-container">
+            <div class="portfolio-card">
+                <a href="https://github.com/borisaavedra/tinify" target="_blank">
+                    <div class="portfolio-card-grid">
+                        <img class="icon-card" src="assets/tinify-boris.svg" alt="">
+                        <h2 class="title-card" >Tinify</h2>
+                        <div class="card-body">
+                            A tiny Spotify witten in Python
+                        </div>
+                        <div class="card-badge">
+                            <div class="badge-container">
+                                <div class="badge-text-container badge-container-b">
+                                    Python
+                                </div>
+                                <div class="badge-right-container badge-container-b blue">
+                                    3.8
+                                </div>
+                            </div>
+                            <div class="badge-container">
+                                <div class="badge-text-container badge-container-b">
+                                    Flask
+                                </div>
+                                <div class="badge-right-container badge-container-b green">
+                                    1.1.2
+                                </div>
+                            </div>
+                            <div class="badge-container">
+                                <div class="badge-text-container badge-container-b">
+                                    Booststrap
+                                </div>
+                                <div class="badge-right-container badge-container-b purple">
+                                    4
+                                </div>
+                            </div>
+                            <div class="badge-container">
+                                <div class="badge-text-container badge-container-b">
+                                    Spotify
+                                </div>
+                                <div class="badge-right-container badge-container-b green">
+                                    Web API
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
              <div class="portfolio-card">
                  <a href="https://github.com/borisaavedra/cocuyo_scrape" target="_blank">
                      <div class="portfolio-card-grid">
@@ -385,51 +440,6 @@
                  </a>
              </div>
              <div class="portfolio-card">
-                 <a href="https://github.com/borisaavedra/bookify" target="_blank">
-                     <div class="portfolio-card-grid">
-                         <img class="icon-card" src="assets/cli-boris.svg" alt="">
-                         <h2 class="title-card" >Bookify (CLI)</h2>
-                         <div class="card-body">
-                             A simple command line Python software to manage your books
-                         </div>
-                         <div class="card-badge">
-                             <div class="badge-container">
-                                 <div class="badge-text-container badge-container-b">
-                                     Python
-                                 </div>
-                                 <div class="badge-right-container badge-container-b blue">
-                                     3.8
-                                 </div>
-                             </div>
-                             <div class="badge-container">
-                                 <div class="badge-text-container badge-container-b">
-                                     Flask
-                                 </div>
-                                 <div class="badge-right-container badge-container-b green">
-                                     1.1.2
-                                 </div>
-                             </div>
-                             <div class="badge-container">
-                                 <div class="badge-text-container badge-container-b">
-                                     Booststrap
-                                 </div>
-                                 <div class="badge-right-container badge-container-b purple">
-                                     4
-                                 </div>
-                             </div>
-                             <div class="badge-container">
-                                 <div class="badge-text-container badge-container-b">
-                                     SQLAlchemy
-                                 </div>
-                                 <div class="badge-right-container badge-container-b yellow">
-                                     1.3.17
-                                 </div>
-                             </div>
-                         </div>
-                     </div>
-                 </a>
-             </div>
-             <div class="portfolio-card">
                  <a href="https://github.com/borisaavedra/let_me_note" target="_blank">
                      <div class="portfolio-card-grid">
                          <img class="icon-card" src="assets/note-boris.svg" alt="">
@@ -502,6 +512,9 @@
                      </div>
                  </a>
              </div>
+             <a href="https://github.com/borisaavedra" class="btn-outline">
+                See more
+             </a> 
          </div>  
      </section>
     <!-- Contact me section -->
