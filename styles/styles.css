@@ -479,6 +479,12 @@ li {
     cursor: pointer;   
 }
 
+.btn-outline:hover {
+    background-color: #E94560;
+    color: #FFFFFF;
+    transition: 0.5s;
+}
+
 .contact-me > h2 {
     color: white;
     background-image: linea;
