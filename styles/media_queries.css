@@ -7,6 +7,7 @@
         height: 125px;
     }
 
+    #hero-img { display: none; }
     
     .header-profile-pic > img {
         height: 125px;
