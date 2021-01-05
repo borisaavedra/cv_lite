@@ -16,16 +16,6 @@ body {
     position: relative;
 }
 
-.header-profile-pic {
-    display: flex;
-    justify-content: center;
-    clip-path: circle(49% at 50% 50%);
-    position: absolute;
-    top: 10%;
-    left: calc((100% / 2) - 114px);
-    z-index: 1;
-}
-
 .nav-container {
     position: relative;
 }
@@ -44,7 +34,7 @@ li > a {
     position: fixed;
     top: 46%;
     left: 2%;
-    z-index: 1;
+    z-index: 3;
 }
 
 ul {
@@ -88,10 +78,19 @@ li {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 10em;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .main-title {
-    margin-top: 9em;
+    margin-top: 3em;
+    padding: 0 13em;
 }
 
 .main-name {
@@ -105,19 +104,23 @@ li {
     font-weight: bold;
     margin-top: -1em;
     margin-top: -0.3em;
-    font-size: 4em;
+    font-size: 3.5em;
+    letter-spacing: 1px;
 }
 
 .minor {
     font-weight: lighter;
-    color: #878787
+    font-size: 20px;
+    color: #878787;
+    line-height: 28px;
 }
 
 .mt { margin-top: 10px;}
 .mb { margin-bottom: 10px; }
+.mt-btn { margin-top: 1em; }
+.mt-btn-see { margin-top: 4em; }
 
 .CTA-btn {
-    margin-top: 4em;
     background-color: #E94560;
     font-family: 'Lato', sans-serif;
     font-weight: bold;
@@ -131,7 +134,7 @@ li {
     border-radius: 8px;
     box-shadow: 2px 4px 30px 0 rgba(0, 0, 0, 0.1);
     cursor: pointer;   
-
+    margin-right: 1em;
 }
 
 .CTA-btn:hover {
@@ -141,6 +144,12 @@ li {
 
 .CTA-btn:focus {
     outline: none;
+}
+
+#about-sec {
+    z-index: 2;
+    position: relative;
+    top: -11vh;
 }
 
 .divider-section {
@@ -158,7 +167,7 @@ li {
     color: white;
     font-weight: bold;
     font-size: 2em;
-    top: 20%;
+    top: 50%;
     left: calc((100% / 2) - (156px / 2));
 }
 
@@ -170,7 +179,7 @@ li {
     position: absolute;
     background: linear-gradient(177.33deg, #0B0E2C 23.34%, #E94560 157.52%);
     width: 100%;
-    height: 200px;
+    height: 300px;
     transform: skewY(-3deg);
 }
 
@@ -464,7 +473,6 @@ li {
 }
 
 .btn-outline {
-    margin-top: 4em;
     background-color: #FFFFFF;
     font-family: 'Lato', sans-serif;
     font-weight: bold;
