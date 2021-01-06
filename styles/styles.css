@@ -482,6 +482,29 @@ li {
     background-color: rgb(173, 30, 173);
 }
 
+/* CSS for free.html */
+.free-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.emoji > img{
+    width: 15em;
+    margin: 5em 0;
+}
+
+.wrapper {
+    width: fit-content;
+    text-align: center;
+}
+
+.lite-font {
+    font-weight: 300;
+    font-size: 2em;
+}
+
+/* CSS for free.html */
+
 .btn-outline {
     background-color: #FFFFFF;
     font-family: 'Lato', sans-serif;
