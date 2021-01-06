@@ -17,7 +17,7 @@ body {
 }
 
 .header-profile-pic {
-    display: flex;
+    display: none;
     justify-content: center;
     clip-path: circle(49% at 50% 50%);
     position: absolute;
