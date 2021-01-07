@@ -78,10 +78,17 @@ li {
     display: inline-block;
 }
 
+.about-container-body > p {
+    line-height: 1.5em;
+}
+
 .nav-text {
     display: none;
 }
 
+#exp {
+    margin-top: 2em;
+}
 
 .main-container {
     display: flex;
