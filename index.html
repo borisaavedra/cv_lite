@@ -14,6 +14,7 @@
     <link rel="stylesheet" type="text/css" href="styles/media_queries.css">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
     <link rel="icon" type="image/png" href="assets/favicon.png">
+    <script src="https://kit.fontawesome.com/5121e23a1c.js" crossorigin="anonymous"></script>
     <title>Boris Saavedra | FULL STACK DEVELOPER</title>
 </head>
 <body>
@@ -89,6 +90,14 @@
                         </button>
                     </a>
                 </div>
+                <div class="mt-2">
+                    <a class="link minor" href="https://drive.google.com/file/d/14hkxOsuuC3PRgJz_PmXpnu-VCWj3Nr-s/view?usp=sharing" target="_blank">
+                        <small>
+                            Download my CV in PDF version&nbsp;
+                            <i class="fas fa-long-arrow-alt-down"></i>
+                        </small>
+                    </a>
+                </div>
             </div>
             <div><img id="hero-img" rel="preload" as="image" src="assets/boris-hero.svg" alt="Boris Saavedra - Full Stack Developer"></div>
             </div>
@@ -145,7 +154,7 @@
                         </div>
                     </div>
                     <div class="job-text">
-                        Development of custom web applications in Python or JavaScript. My contribution is from the design process to the deployment of the application. Not only as the sole developer of the project, but as part of a team. My work is under the Scrum methodology.
+                        Development of custom web applications in Python or JavaScript. My contribution is from the design process to the deployment of the application. Not only as a main (and only) developer of the project, but as part of a team. My work is under the Scrum methodology.
                     </div>
                 </div>
                 <div class="about-container-body">
@@ -195,17 +204,17 @@
     </section>
      <!-- Portfolio section -->
      <section id="portfolio-sec">
-         <div class="divider-section">
+        <div class="divider-section">
             <div class="box"></div>
             <p id="portfolio-section" class="section-title">Portfolio</p>
-         </div>
-         <div class="main-container">
+        </div>
+        <div class="main-container main-no-col">
             <div class="portfolio-card">
-                <a href="https://github.com/borisaavedra/twiquest" target="_blank">
-                    <div class="portfolio-card-grid">
-                        <img class="icon-card" src="assets/twitter_boris.svg" alt="">
+                <div class="portfolio-card-grid">
+                    <img class="icon-card" src="assets/twitter_boris.svg" alt="">
+                    <div>
                         <h2 class="title-card" >TwiQuest</h2>
-                        <div class="card-body">
+                        <div class="card-body mb">
                             A web app to find Twitter trends, users tweeting about a specifict trend and check if is a bot.
                         </div>
                         <div class="card-badge">
@@ -251,14 +260,22 @@
                             </div>
                         </div>
                     </div>
-                </a>
+                    <div class="link-set">
+                        <a href="https://twiquest.herokuapp.com/" class="btn-outline demo-btn no-shadow" target="_blank">
+                            Demo&nbsp;&nbsp;<i class="fas fa-chevron-right"></i>
+                        </a>
+                        <a href="https://github.com/borisaavedra/twiquest" class="btn-outline mt demo-btn no-shadow" target="_blank">
+                            Code&nbsp;&nbsp;<i class="fas fa-chevron-right"></i>
+                        </a>
+                    </div>
+                </div>
             </div>
             <div class="portfolio-card">
-                <a href="https://github.com/borisaavedra/parkinson-control" target="_blank">
-                    <div class="portfolio-card-grid">
-                        <img class="icon-card" src="assets/parkinson-boris.svg" alt="">
-                        <h2 class="title-card" >Parkison Control</h2>
-                        <div class="card-body">
+                <div class="portfolio-card-grid">
+                    <img class="icon-card" src="assets/parkinson-boris.svg" alt="">
+                    <div>
+                        <h2 class="title-card" >Parkinson Control</h2>
+                        <div class="card-body mb">
                             Simple Flask App to register ON and OFF state for Parkison patients.
                         </div>
                         <div class="card-badge">
@@ -304,14 +321,22 @@
                             </div>
                         </div>
                     </div>
-                </a>
+                    <div class="link-set">
+                        <a href="https://parkinsoncontrol.herokuapp.com/" class="btn-outline demo-btn no-shadow" target="_blank">
+                            Demo&nbsp;&nbsp;<i class="fas fa-chevron-right"></i>
+                        </a>
+                        <a href="https://github.com/borisaavedra/parkinson-control" class="btn-outline mt demo-btn no-shadow" target="_blank">
+                            Code&nbsp;&nbsp;<i class="fas fa-chevron-right"></i>
+                        </a>
+                    </div>
+                </div>
             </div>
             <div class="portfolio-card">
-                <a href="https://github.com/borisaavedra/feeder" target="_blank">
-                    <div class="portfolio-card-grid">
-                        <img class="icon-card" src="assets/feeder-boris.svg" alt="">
+                <div class="portfolio-card-grid">
+                    <img class="icon-card" src="assets/feeder-boris.svg" alt="">
+                    <div>
                         <h2 class="title-card" >Content Aggregator</h2>
-                        <div class="card-body">
+                        <div class="card-body mb">
                             A Python app to save links and add description. Check my "Free Stuff" section for a live demo 😊
                         </div>
                         <div class="card-badge">
@@ -349,15 +374,23 @@
                             </div>
                         </div>
                     </div>
-                </a>
+                    <div class="link-set">
+                        <a href="https://borisaavedra.com/feeder/free-stuff" class="btn-outline demo-btn no-shadow" target="_blank">
+                            Demo&nbsp;&nbsp;<i class="fas fa-chevron-right"></i>
+                        </a>
+                        <a href="https://github.com/borisaavedra/feeder" class="btn-outline mt demo-btn no-shadow" target="_blank">
+                            Code&nbsp;&nbsp;<i class="fas fa-chevron-right"></i>
+                        </a>
+                    </div>
+                </div>
             </div>
             <div class="portfolio-card">
-                <a href="https://github.com/borisaavedra/presidents-speeches" target="_blank">
-                    <div class="portfolio-card-grid">
-                        <img class="icon-card" src="assets/president-boris.svg" alt="">
+                <div class="portfolio-card-grid">
+                    <img class="icon-card" src="assets/president-boris.svg" alt="">
+                    <div>
                         <h2 class="title-card" >What you said Mr President?</h2>
-                        <div class="card-body">
-                            Tiny speech analyzer to find out what presidents said, written in Python
+                        <div class="card-body mb">
+                            Tiny speech analyzer to find out what presidents said, written in Python.
                         </div>
                         <div class="card-badge">
                             <div class="badge-container">
@@ -410,15 +443,23 @@
                             </div>
                         </div>
                     </div>
-                </a>
+                    <div class="link-set">
+                        <a href="https://president-speech.herokuapp.com/" class="btn-outline demo-btn no-shadow" target="_blank">
+                            Demo&nbsp;&nbsp;<i class="fas fa-chevron-right"></i>
+                        </a>
+                        <a href="https://github.com/borisaavedra/presidents-speeches" class="btn-outline mt demo-btn no-shadow" target="_blank">
+                            Code&nbsp;&nbsp;<i class="fas fa-chevron-right"></i>
+                        </a>
+                    </div>
+                </div>
             </div>
             <div class="portfolio-card">
-                <a href="https://github.com/borisaavedra/tinify" target="_blank">
-                    <div class="portfolio-card-grid">
-                        <img class="icon-card" src="assets/tinify-boris.svg" alt="">
+                <div class="portfolio-card-grid">
+                    <img class="icon-card" src="assets/tinify-boris.svg" alt="">
+                    <div>
                         <h2 class="title-card" >Tinify</h2>
-                        <div class="card-body">
-                            A tiny Spotify written in Python
+                        <div class="card-body mb">
+                            A tiny Spotify written in Python.
                         </div>
                         <div class="card-badge">
                             <div class="badge-container">
@@ -455,241 +496,154 @@
                             </div>
                         </div>
                     </div>
-                </a>
+                    <div class="link-set">
+                        <a href="https://president-speech.herokuapp.com/" class="btn-outline demo-btn no-shadow" target="_blank">
+                            Demo&nbsp;&nbsp;<i class="fas fa-chevron-right"></i>
+                        </a>
+                        <a href="https://github.com/borisaavedra/presidents-speeches" class="btn-outline mt demo-btn no-shadow" target="_blank">
+                            Code&nbsp;&nbsp;<i class="fas fa-chevron-right"></i>
+                        </a>
+                    </div>
+                </div>
             </div>
-             <div class="portfolio-card">
-                 <a href="https://github.com/borisaavedra/cocuyo_scrape" target="_blank">
-                     <div class="portfolio-card-grid">
-                         <img class="icon-card" src="assets/spider.svg" alt="">
-                         <h2 class="title-card" >Scrape Cocuyo</h2>
-                         <div class="card-body">
-                             A script to get all the article from the news site efectococuyo.com
-                         </div>
-                         <div class="card-badge">
-                             <div class="badge-container">
-                                 <div class="badge-text-container badge-container-b">
-                                     Python
-                                 </div>
-                                 <div class="badge-right-container badge-container-b blue">
-                                     3.8
-                                 </div>
-                             </div>
-                             <div class="badge-container">
-                                 <div class="badge-text-container badge-container-b">
-                                     bs4
-                                 </div>
-                                 <div class="badge-right-container badge-container-b blue">
-                                     3.7
-                                 </div>
-                             </div>
-                         </div>
-                     </div>
-                 </a>
-                 </div>
-             <div class="portfolio-card">
-                 <a href="https://github.com/borisaavedra/cv_lite" target="_blank">
-                     <div class="portfolio-card-grid">
-                         <img class="icon-card" src="assets/website_boris.svg" alt="">
-                         <h2 class="title-card" >Fully responsive portfolio website</h2>
-                         <div class="card-body">
-                            Show your work in a simple way with this website.                         </div>
-                         <div class="card-badge">
-                             <div class="badge-container">
-                                 <div class="badge-text-container badge-container-b">
-                                     HTML
-                                 </div>
-                                 <div class="badge-right-container badge-container-b orange">
-                                     5
-                                 </div>
-                             </div>
-                             <div class="badge-container">
-                                 <div class="badge-text-container badge-container-b">
-                                     CSS
-                                 </div>
-                                 <div class="badge-right-container badge-container-b blue">
-                                     3
-                                 </div>
-                             </div>
-                             <div class="badge-container">
-                                 <div class="badge-text-container badge-container-b">
-                                     JavaScript
-                                 </div>
-                                 <div class="badge-right-container badge-container-b yellow">
-                                     9
-                                 </div>
-                             </div>
-                         </div>
-                     </div>
-                 </a>
-             </div>
-             <div class="portfolio-card">
-                 <a href="https://github.com/borisaavedra/maildog" target="_blank">
-                     <div class="portfolio-card-grid">
-                         <img class="icon-card" src="assets/dog-boris.svg" alt="">
-                         <h2 class="title-card" >MailDog</h2>
-                         <div class="card-body">
-                             Just like MailChimp (wannabe) but with Dogs
-                         </div>
-                         <div class="card-badge">
-                             <div class="badge-container">
-                                 <div class="badge-text-container badge-container-b">
-                                     Python
-                                 </div>
-                                 <div class="badge-right-container badge-container-b blue">
-                                     3.8
-                                 </div>
-                             </div>
-                             <div class="badge-container">
-                                 <div class="badge-text-container badge-container-b">
-                                     Flask
-                                 </div>
-                                 <div class="badge-right-container badge-container-b green">
-                                     1.1.2
-                                 </div>
-                             </div>
-                             <div class="badge-container">
-                                 <div class="badge-text-container badge-container-b">
-                                     Booststrap
-                                 </div>
-                                 <div class="badge-right-container badge-container-b purple">
-                                     4
-                                 </div>
-                             </div>
-                             <div class="badge-container">
-                                 <div class="badge-text-container badge-container-b">
-                                     SQLAlchemy
-                                 </div>
-                                 <div class="badge-right-container badge-container-b yellow">
-                                     1.3.17
-                                 </div>
-                             </div>
-                         </div>
-                     </div>
-                 </a>
-             </div>
-             <div class="portfolio-card">
-                 <a href="https://github.com/borisaavedra/hatter" target="_blank">
-                     <div class="portfolio-card-grid">
-                         <img class="icon-card" src="assets/angry-boris.svg" alt="">
-                         <h2 class="title-card" >Hatter</h2>
-                         <div class="card-body">
-                             A wannabe Twitter just for hate each other written in Python
-                         </div>
-                         <div class="card-badge">
-                             <div class="badge-container">
-                                 <div class="badge-text-container badge-container-b">
-                                     Python
-                                 </div>
-                                 <div class="badge-right-container badge-container-b blue">
-                                     3.8
-                                 </div>
-                             </div>
-                             <div class="badge-container">
-                                 <div class="badge-text-container badge-container-b">
-                                     Flask
-                                 </div>
-                                 <div class="badge-right-container badge-container-b green">
-                                     1.1.2
-                                 </div>
-                             </div>
-                             <div class="badge-container">
-                                 <div class="badge-text-container badge-container-b">
-                                     Booststrap
-                                 </div>
-                                 <div class="badge-right-container badge-container-b purple">
-                                     4
-                                 </div>
-                             </div>
-                             <div class="badge-container">
-                                 <div class="badge-text-container badge-container-b">
-                                     SQLAlchemy
-                                 </div>
-                                 <div class="badge-right-container badge-container-b yellow">
-                                     1.3.17
-                                 </div>
-                             </div>
-                         </div>
-                     </div>
-                 </a>
-             </div>
-             <div class="portfolio-card">
-                 <a href="https://github.com/borisaavedra/bookify_web" target="_blank">
-                     <div class="portfolio-card-grid">
-                         <img class="icon-card" src="assets/books-boris.svg" alt="">
-                         <h2 class="title-card" >Bookify (Web)</h2>
-                         <div class="card-body">
-                             A web based library coded in Python
-                         </div>
-                         <div class="card-badge">
-                             <div class="badge-container">
-                                 <div class="badge-text-container badge-container-b">
-                                     Python
-                                 </div>
-                                 <div class="badge-right-container badge-container-b blue">
-                                     3.8
-                                 </div>
-                             </div>
-                             <div class="badge-container">
-                                 <div class="badge-text-container badge-container-b">
-                                     Flask
-                                 </div>
-                                 <div class="badge-right-container badge-container-b green">
-                                     1.1.2
-                                 </div>
-                             </div>
-                             <div class="badge-container">
-                                 <div class="badge-text-container badge-container-b">
-                                     Booststrap
-                                 </div>
-                                 <div class="badge-right-container badge-container-b purple">
-                                     4
-                                 </div>
-                             </div>
-                             <div class="badge-container">
-                                 <div class="badge-text-container badge-container-b">
-                                     SQLAlchemy
-                                 </div>
-                                 <div class="badge-right-container badge-container-b yellow">
-                                     1.3.17
-                                 </div>
-                             </div>
-                         </div>
-                     </div>
-                 </a>
-             </div>
-             <div class="portfolio-card">
-                 <a href="https://www.dropbox.com/s/k65zo6c6zz36uys/Boris%20Saavedra%20Portfolio%20Product%20Owner-Designer%202020-light.pdf?dl=0" target="_blank">
-                     <div class="portfolio-card-grid">
-                         <img class="icon-card" src="assets/paint-boris.svg" alt="">
-                         <h2 class="title-card" >UX/UI Porfolio</h2>
-                         <div class="card-body">
-                             Download my Product & UX Designer portfolio
-                         </div>
-                         <div class="card-badge">
-                             <div class="badge-container">
-                                 <div class="badge-text-container badge-container-b">
-                                     Figma
-                                 </div>
-                                 <div class="badge-right-container badge-container-b purple">
-                                     88
-                                 </div>
-                             </div>
-                             <div class="badge-container">
-                                 <div class="badge-text-container badge-container-b">
-                                     Illustrator
-                                 </div>
-                                 <div class="badge-right-container badge-container-b yellow">
-                                     CC 2018
-                                 </div>
-                             </div>
-                         </div>
-                     </div>
-                 </a>
-             </div>
-             <a href="https://github.com/borisaavedra" class="btn-outline mt-btn-see" target="_blank">
+            <div class="portfolio-card">
+                <div class="portfolio-card-grid">
+                    <img class="icon-card" src="assets/website_boris.svg" alt="">
+                    <div>
+                        <h2 class="title-card" >Fully responsive portfolio template</h2>
+                        <div class="card-body mb">
+                            Show your work in a beautiful way with this resposive template.
+                        </div>
+                        <div class="card-badge">
+                            <div class="badge-container">
+                                <div class="badge-text-container badge-container-b">
+                                    HTML
+                                </div>
+                                <div class="badge-right-container badge-container-b orange">
+                                    5
+                                </div>
+                            </div>
+                            <div class="badge-container">
+                                <div class="badge-text-container badge-container-b">
+                                    CSS
+                                </div>
+                                <div class="badge-right-container badge-container-b blue">
+                                    3
+                                </div>
+                            </div>
+                            <div class="badge-container">
+                                <div class="badge-text-container badge-container-b">
+                                    JavaScript
+                                </div>
+                                <div class="badge-right-container badge-container-b yellow">
+                                    9
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="link-set">
+                        <a href="https://borisaavedra.com" class="btn-outline demo-btn no-shadow" target="_blank">
+                            Demo&nbsp;&nbsp;<i class="fas fa-chevron-right"></i>
+                        </a>
+                        <a href="https://github.com/borisaavedra/cv_lite" class="btn-outline mt demo-btn no-shadow" target="_blank">
+                            Code&nbsp;&nbsp;<i class="fas fa-chevron-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-card">
+                <div class="portfolio-card-grid">
+                    <img class="icon-card" src="assets/angry-boris.svg" alt="">
+                    <div>
+                        <h2 class="title-card" >Hatter</h2>
+                        <div class="card-body mb">
+                            A wannabe Twitter just for hate each other written in Python.
+                        </div>
+                        <div class="card-badge">
+                            <div class="badge-container">
+                                <div class="badge-text-container badge-container-b">
+                                    Python
+                                </div>
+                                <div class="badge-right-container badge-container-b blue">
+                                    3.8
+                                </div>
+                            </div>
+                            <div class="badge-container">
+                                <div class="badge-text-container badge-container-b">
+                                    Flask
+                                </div>
+                                <div class="badge-right-container badge-container-b green">
+                                    1.1.2
+                                </div>
+                            </div>
+                            <div class="badge-container">
+                                <div class="badge-text-container badge-container-b">
+                                    Booststrap
+                                </div>
+                                <div class="badge-right-container badge-container-b purple">
+                                    4
+                                </div>
+                            </div>
+                            <div class="badge-container">
+                                <div class="badge-text-container badge-container-b">
+                                    SQLAlchemy
+                                </div>
+                                <div class="badge-right-container badge-container-b yellow">
+                                    1.3.17
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="link-set">
+                        <a href="https://hatterbs.herokuapp.com/" class="btn-outline demo-btn no-shadow" target="_blank">
+                            Demo&nbsp;&nbsp;<i class="fas fa-chevron-right"></i>
+                        </a>
+                        <a href="https://github.com/borisaavedra/hatter" class="btn-outline mt demo-btn no-shadow" target="_blank">
+                            Code&nbsp;&nbsp;<i class="fas fa-chevron-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-card">
+                <div class="portfolio-card-grid">
+                    <img class="icon-card" src="assets/paint-boris.svg" alt="">
+                    <div>
+                        <h2 class="title-card" >UX/UI Porfolio</h2>
+                        <div class="card-body mb">
+                            Download my Product & UX Designer portfolio.
+                        </div>
+                        <div class="card-badge">
+                            <div class="badge-container">
+                                <div class="badge-text-container badge-container-b">
+                                    Figma
+                                </div>
+                                <div class="badge-right-container badge-container-b purple">
+                                    88
+                                </div>
+                            </div>
+                            <div class="badge-container">
+                                <div class="badge-text-container badge-container-b">
+                                    Illustrator
+                                </div>
+                                <div class="badge-right-container badge-container-b yellow">
+                                    CC 2018
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="link-set">
+                        <a href="https://www.dropbox.com/s/k65zo6c6zz36uys/Boris%20Saavedra%20Portfolio%20Product%20Owner-Designer%202020-light.pdf?dl=0" class="btn-outline demo-btn no-shadow" target="_blank">
+                            Download&nbsp;&nbsp;<i class="fas fa-chevron-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-container no-mt">
+            <a href="https://github.com/borisaavedra" class="btn-outline mt-btn-see" target="_blank">
                 See more
-             </a> 
-         </div>  
+            </a>
+        </div>
         </section>
         <!-- Contact me section -->
         <section id="contact-sec">
