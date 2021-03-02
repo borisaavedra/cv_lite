@@ -104,6 +104,10 @@ li {
     align-items: flex-start;
 }
 
+#hero-img {
+    width: fit-content;
+}
+
 .hero-container {
     display: flex;
     flex-direction: row;
@@ -435,6 +439,15 @@ li {
     grid-template-rows: auto auto auto;
 }
 
+@keyframes demobtn {
+    from { margin-left: 0; }
+    to { margin-left: 10px; }
+}
+
+.link-set > a:hover > i {
+    animation: demobtn .5s 1;
+    animation-fill-mode: forwards;
+}
 
 .portfolio-card-grid > h2 {
     margin-bottom: 0.2em;
@@ -542,10 +555,10 @@ li {
 
 .btn-outline {
     background-color: #FFFFFF;
+    color: #E94560;
     font-family: 'Lato', sans-serif;
     font-weight: bold;
     font-size: large;
-    color: #E94560;
     padding: 1em;
     text-align: center;
     text-decoration: none;
@@ -559,7 +572,6 @@ li {
     padding: 10px !important;
     width: 50%;
     font-size: small;
-
 }
 
 .btn-outline:hover {
