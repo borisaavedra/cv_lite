@@ -10,11 +10,13 @@
     <!-- End Google Tag Manager -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="styles/styles.css">
-    <link rel="stylesheet" type="text/css" href="styles/media_queries.css">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="preload" rel="stylesheet" as="style" type="text/css" href="styles/styles.css" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="styles/styles.css"></noscript>
+    <link rel="preload" rel="stylesheet" as="style" type="text/css" href="styles/media_queries.css" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="styles/media_queries.css"></noscript>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap"></noscript>
     <link rel="icon" type="image/png" href="assets/favicon.png">
-    <script src="https://kit.fontawesome.com/5121e23a1c.js" crossorigin="anonymous"></script>
     <title>Boris Saavedra | FULL STACK DEVELOPER</title>
 </head>
 <body>
@@ -26,7 +28,7 @@
         <header id="header">
             <div class="header-pic"></div>
             <div class="header-profile-pic">
-                <img src="assets/Boris_pic.png" alt="Boris Saavedra Developer">
+                <img src="assets/Boris_pic.webp" alt="Boris Saavedra Developer">
             </div>
         </header>
         <div class="header-deco">
@@ -99,7 +101,7 @@
                     </a>
                 </div>
             </div>
-            <div><img id="hero-img" rel="preload" as="image" src="assets/boris-hero.svg" alt="Boris Saavedra - Full Stack Developer"></div>
+            <div><img id="hero-img" rel="preload" as="image" src="assets/boris-hero.webp" alt="Boris Saavedra - Full Stack Developer"></div>
             </div>
     </section>
     <!-- About me section -->
@@ -684,6 +686,7 @@
                 <p>Design & Develop by Boris Saavedra</p>
                 <p>2021</p>
             </footer>
+            <script src="https://kit.fontawesome.com/5121e23a1c.js" crossorigin="anonymous" async defer></script>
             <script src="scripts/script.js"></script>
     </section>
     </body>
